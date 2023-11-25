@@ -25,7 +25,7 @@ namespace ADOPM2_03_09
             myChefs.Add(new GermanChef());
             myChefs.Add(new SwedishChef());
 
-            
+
             //myChefs.Add(new SouthSwedishChef()); //Not possible as SwedishChef is sealed
 
             FavoritesToConsole(myChefs);
@@ -44,3 +44,4 @@ namespace ADOPM2_03_09
             }
         }
     }
+}
